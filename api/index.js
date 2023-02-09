@@ -12,7 +12,8 @@ app.use(router);
 // rotas
 router.get("/api", (req, res) => {
   res.send({
-    msg: "parabéns sua API está em funcionamento",
+    msg: "API está em funcionamento",
+    by: "https://github.com/deni-rocha/",
   });
 });
 
