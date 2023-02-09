@@ -5,7 +5,8 @@
   "description": "",
   "main": "./api/index.js",
   "scripts": {
-    "start": "nodemon --watch ./api/**/*.js",
+    "start": "node ./api/index.js",
+    "dev": "nodemon --watch ./api/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
